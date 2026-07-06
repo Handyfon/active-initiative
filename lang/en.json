@@ -1,0 +1,40 @@
+{
+	"ActiveInitiative.Settings.damagePath": {
+		"Text": "HP Damage Path",
+		"Hint": "This is the path that points towards the HP value of an actor (standard DnD5e: system.attributes.hp.value)"
+	},
+	"ActiveInitiative.Settings.stealOnDamage": {
+		"Text": "Enable Turn Steal on Damage",
+		"Hint": "When a combatant takes damage they become able to steal the next turn"
+	},
+	"ActiveInitiative.Settings.damageOnIncrease": {
+		"Text": "Increasing Value Means Damage",
+		"Hint": "Enable this if your value counts UP when a combatant gets hurt (wound counters, for systems like swade)"
+	},
+	"ActiveInitiative.Notify.DefeatedReceive": "Defeated combatants cannot receive the turn.",
+	"ActiveInitiative.Notify.TargetIsActive": "The turn cannot be given to the active combatant.",
+	"ActiveInitiative.Notify.AlreadyActed": "That combatant has already acted this round.",
+	"ActiveInitiative.Notify.InterruptPriority": "A queued interrupt takes priority: {name} acts next.",
+	"ActiveInitiative.Notify.DefeatedInterrupt": "Defeated combatants cannot interrupt.",
+	"ActiveInitiative.Notify.ActiveInterrupt": "The active combatant cannot interrupt.",
+	"ActiveInitiative.Notify.ActedInterrupt": "Combatants who have already acted cannot interrupt.",
+	"ActiveInitiative.Notify.AlreadyQueued": "That combatant is already interrupting.",
+	"ActiveInitiative.Notify.NotEligible": "That combatant is not eligible to interrupt.",
+	"ActiveInitiative.Notify.NotOwner": "You can only interrupt with a combatant you own.",
+	"ActiveInitiative.Notify.NotYourTurn": "You can only give the turn when it is your turn.",
+	"ActiveInitiative.Notify.AllyInterrupt": "You cannot interrupt an ally.",
+	"ActiveInitiative.Notify.NoGM": "No GM is connected to handle turn requests.",
+
+	"ActiveInitiative.States.Active": "Active",
+	"ActiveInitiative.States.Acted": "Acted",
+	"ActiveInitiative.States.Ready": "Ready",
+	"ActiveInitiative.States.CanInterrupt": "Can Interrupt",
+	"ActiveInitiative.States.Queued": "Interrupting next",
+
+	"ActiveInitiative.Buttons.SetActive": "Set active",
+	"ActiveInitiative.Buttons.SetActiveTitle": "GM override: set as active combatant",
+	"ActiveInitiative.Buttons.GiveTurn": "Give turn",
+	"ActiveInitiative.Buttons.GiveTurnTitle": "Give the turn to this combatant",
+	"ActiveInitiative.Buttons.Interrupt": "Interrupt",
+	"ActiveInitiative.Buttons.InterruptTitle": "Interrupt: act next, after the current turn ends"
+}

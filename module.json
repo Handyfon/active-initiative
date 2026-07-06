@@ -1,0 +1,32 @@
+{
+  "id": "active-initiative",
+  "title": "Active Initiative",
+  "description": "Darker Dungeons style active initiative - hand the turn to whoever acts next and steal turns when you take damage!",
+  "version": "14.3",
+  "esmodules": [
+    "scripts/active-initiative.js"
+  ],
+  "styles": [
+    "styles/active-initiative.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/Handyfon/active-initiative",
+  "manifest": "https://raw.githubusercontent.com/Handyfon/active-initiative/master/module.json",
+  "download": "https://github.com/Handyfon/active-initiative/releases/download/v14.3/active-initiative.zip",
+  "authors": [
+    {
+      "name": "Handyfon",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  }
+}
