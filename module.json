@@ -17,7 +17,7 @@
     }
   ],
   "url": "https://github.com/Handyfon/active-initiative",
-  "manifest": "https://raw.githubusercontent.com/Handyfon/active-initiative/master/module.json",
+  "manifest": "https://github.com/Handyfon/active-initiative/releases/download/v14.3/module.json",
   "download": "https://github.com/Handyfon/active-initiative/releases/download/v14.3/active-initiative.zip",
   "authors": [
     {
