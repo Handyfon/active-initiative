@@ -1,3 +1,7 @@
+.chat-message.ai-carrier {
+  display: none !important;
+}
+
 .combat-tracker [data-combatant-id].ai-acted,
 #combat-tracker [data-combatant-id].ai-acted {
   opacity: 0.62;
@@ -90,7 +94,8 @@
 
 .ai-set-btn,
 .ai-turn-btn,
-.ai-steal-btn {
+.ai-steal-btn,
+.ai-unact-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +115,8 @@
 
 .ai-set-btn i,
 .ai-turn-btn i,
-.ai-steal-btn i {
+.ai-steal-btn i,
+.ai-unact-btn i {
   margin: 0;
 }
 
@@ -125,4 +131,9 @@
 
 .ai-steal-btn {
   color: #ffd0bd;
+}
+
+.ai-unact-btn {
+  color: #bcd6f0;
+  background: #1e3a5a;
 }

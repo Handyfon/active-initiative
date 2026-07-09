@@ -24,6 +24,19 @@
 	"ActiveInitiative.Notify.NotYourTurn": "You can only give the turn when it is your turn.",
 	"ActiveInitiative.Notify.AllyInterrupt": "You cannot interrupt an ally.",
 	"ActiveInitiative.Notify.NoGM": "No GM is connected to handle turn requests.",
+	"ActiveInitiative.Notify.NoCombat": "That combat is not active anymore.",
+	"ActiveInitiative.Notify.RequestFailed": "Something went wrong handling your turn request - ask the GM to check the console.",
+
+	"ActiveInitiative.Recommend.NoPreset": "Your system ({system}) has no recommended preset, please set the HP Damage Path in the module settings.",
+	"ActiveInitiative.Recommend.Title": "Active Initiative Configuration",
+	"ActiveInitiative.Recommend.Detected": "The detected system (<strong>{name}</strong>) has a recommended configuration.",
+	"ActiveInitiative.Recommend.ApplyQuestion": "Would you like to apply it?",
+	"ActiveInitiative.Recommend.CurrentPath": "Current HP Damage Path:",
+	"ActiveInitiative.Recommend.CountsUp": "This system counts damage up, so <strong>Increasing Value Means Damage</strong> gets enabled as well.",
+	"ActiveInitiative.Recommend.ApplyButton": "Apply Settings",
+	"ActiveInitiative.Recommend.SkipButton": "Don't ask again",
+	"ActiveInitiative.Recommend.Applied": "Applied settings for {name}.",
+	"ActiveInitiative.Recommend.Skipped": "Default settings remain. Configure manually in module settings if needed.",
 
 	"ActiveInitiative.States.Active": "Active",
 	"ActiveInitiative.States.Acted": "Acted",
@@ -36,5 +49,7 @@
 	"ActiveInitiative.Buttons.GiveTurn": "Give turn",
 	"ActiveInitiative.Buttons.GiveTurnTitle": "Give the turn to this combatant",
 	"ActiveInitiative.Buttons.Interrupt": "Interrupt",
-	"ActiveInitiative.Buttons.InterruptTitle": "Interrupt: act next, after the current turn ends"
+	"ActiveInitiative.Buttons.InterruptTitle": "Interrupt: act next, after the current turn ends",
+	"ActiveInitiative.Buttons.ClearActed": "Mark as not acted",
+	"ActiveInitiative.Buttons.ClearActedTitle": "GM: mark as not acted yet (can act again this round)"
 }

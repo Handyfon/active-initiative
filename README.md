@@ -2,7 +2,7 @@ Also known as Popcorn initiative! System agnostic active initiative module.
 <b>SUPPORT: https://discord.gg/gs5hAgxBx3</b><br>
 
 
-Inspired by Giffyglyph's Darker Dungeons: once combat starts the initiative values are hidden and whoever finishes their turn picks who goes next.
+Inspired by Giffyglyph's Darker Dungeons: initiative values are hidden and whoever finishes their turn picks who goes next.
 Rules: https://www.giffyglyph.com/darkerdungeons/
 
 This module is system agnostive and like my other modules uses hp data paths (for some systems automatic) to determine when an actor took damage.
